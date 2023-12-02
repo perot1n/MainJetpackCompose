@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">labochka</string>
+    <string name="background_photo">background photo</string>
+    <string name="calling">Calling ...</string>
+    <string name="kyrylo_oleksiyovych_budanov">Kyrylo Oleksiyovych Budanov</string>
+    <string name="button_call_mute">Button Call Mute</string>
+</resources>

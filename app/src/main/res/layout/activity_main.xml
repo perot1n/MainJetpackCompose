@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/Budanov_photo"
+        android:layout_width="396dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/budanov"
+        android:contentDescription="@string/background_photo" />
+
+    <TextView
+        android:id="@+id/Activity_Calling"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="506dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/calling"
+        android:textAlignment="center"
+        android:textColor="#D3D1D1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Name_Caller"
+        android:layout_width="306dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="208dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/kyrylo_oleksiyovych_budanov"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/Mutemicbutton"
+        android:layout_width="71dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="99dp"
+        app:srcCompat="@android:drawable/stat_notify_call_mute"
+        android:contentDescription="@string/button_call_mute" />
+
+    <ImageView
+        android:id="@+id/Endcallbutton"
+        android:layout_width="85dp"
+        android:layout_height="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        app:srcCompat="@drawable/endcallbutton" />
+
+    <ImageView
+        android:id="@+id/Loudspeakerbutton"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="98dp"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+    <ImageView
+        android:id="@+id/Backbutton"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/backbutton" />
+
+</RelativeLayout>
